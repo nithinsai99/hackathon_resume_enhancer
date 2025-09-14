@@ -6,7 +6,7 @@ from django.views.decorators.csrf import csrf_exempt
 from docx import Document
 from PyPDF2 import PdfReader
 
-genai.configure(api_key="AIzaSyCgM4hoRDSB8ZJOLbGDBVhspg4BTDfcFNg")
+genai.configure(api_key="YOUR_API_KEY")
 
 @csrf_exempt
 def resume_update_view(request):
